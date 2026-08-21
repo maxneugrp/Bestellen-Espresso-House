@@ -1,7 +1,7 @@
 import { formatPrice } from "@/lib/order";
 
 const API_URL =
-"https://espresso-house-api.maxneugrp.workers.dev/api/orders";
+"https://espresso-house-kunden-api.maxneugrp.workers.dev/api/orders";
 
 export function isDiscordConfigured() {
 return Boolean(API_URL);
