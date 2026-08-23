@@ -19,7 +19,7 @@ export const products = [
   { id: "flat-white", number: 7, name: "Flat White", price: 5.1, category: "kaffeespezialitaeten", description: "doppelter Espresso, seidiger Milchschaum" },
   { id: "caffe-latte", number: 8, name: "Caffè Latte", price: 5.3, category: "kaffeespezialitaeten", description: "viel warme Milch, leichte Schaumhaube" },
   { id: "latte-macchiato", number: 9, name: "Latte Macchiato", price: 5.2, category: "kaffeespezialitaeten", description: "Milch, Espresso, luftiger Schaum, im Glas" },
-  { id: "mokka", number: 10, name: "Mokka", price: 4.5, category: "kaffeespezialitaeten", description: "Espresso, heiße Schokolade, Sahnehaube" },
+  { id: "mokka", number: 10, name: "Mokka", oldPrice: 4.5, price: 3.7, category: "kaffeespezialitaeten", description: "Espresso, heiße Schokolade, Sahnehaube" },
 
   // Kalte Kaffeespezialitäten
   { id: "eiskaffee-classic", number: 11, name: "Eiskaffee Classic", price: 5.4, category: "kalte-kaffeespezialitaeten", description: "Kaffee, Milch, Vanilleeis" },
@@ -33,7 +33,7 @@ export const products = [
   { id: "kraeutertee", number: 17, name: "Kräutertee / Kamille", price: 3.6, category: "tee-heissgetraenke" },
   { id: "fruechtetee", number: 18, name: "Früchtetee", price: 3.6, category: "tee-heissgetraenke" },
   { id: "chai-latte", number: 19, name: "Chai Latte", price: 4.9, category: "tee-heissgetraenke" },
-  { id: "heisse-schokolade", number: 20, name: "Heiße Schokolade", price: 4.6, category: "tee-heissgetraenke" },
+  { id: "heisse-schokolade", number: 20, name: "Heiße Schokolade", price: 3.9, oldPrice: 4.6, category: "tee-heissgetraenke" },
   { id: "kinder-kakao", number: 21, name: "Kinder-Kakao", price: 3.2, category: "tee-heissgetraenke" },
 
   // Gebäck & Süßes
@@ -42,7 +42,7 @@ export const products = [
   { id: "donut", number: 24, name: "Donut", price: 3.8, category: "gebaeck-suesses", description: "glasiert, verschiedene Sorten" },
   { id: "zimtschnecke", number: 25, name: "Zimtschnecke", price: 4.2, category: "gebaeck-suesses", description: "warm, mit Frischkäse-Glasur" },
   { id: "muffin", number: 26, name: "Muffin", price: 3.5, category: "gebaeck-suesses", description: "Schoko oder Blaubeere" },
-  { id: "bagel", number: 27, name: "Bagel", price: 4.6, category: "gebaeck-suesses", description: "herzhaft, mit Frischkäse" },
+  { id: "bagel", number: 27, name: "Bagel", price: 4.0, oldPrice: 4.6,category: "gebaeck-suesses", description: "herzhaft, mit Frischkäse" },
   { id: "cookie", number: 28, name: "Cookie", price: 3.2, category: "gebaeck-suesses", description: "Schokostückchen, außen knusprig" },
   { id: "brownie", number: 29, name: "Brownie", price: 3.9, category: "gebaeck-suesses", description: "warm, dunkle Schokolade, Walnuss" },
   { id: "cheesecake", number: 30, name: "Cheesecake (Stück)", price: 4.8, category: "gebaeck-suesses", description: "New-York-Style, Beerensauce" },
