@@ -23,7 +23,7 @@ export default function OrderSuccess({ order, onNewOrder }) {
           <Check className="w-8 h-8" />
         </span>
         <h1 className="font-heading text-2xl font-bold">Danke, {order.name}!</h1>
-        <p className="text-muted-foreground mt-1">Deine Mutter</p>
+        <p className="text-muted-foreground mt-1">Deine Mutter stinkt (Ingos mutter)</p>
 
         <div className="mt-5 w-full flex items-center justify-center gap-2 bg-accent rounded-xl py-3 px-4">
           <Receipt className="w-5 h-5 text-primary" />
