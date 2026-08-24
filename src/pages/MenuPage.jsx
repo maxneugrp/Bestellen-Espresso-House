@@ -83,14 +83,10 @@ export default function MenuPage() {
           </h1>
 
           <p className="text-[11px] tracking-[0.3em] text-[#1A1A1A]/70 mt-1">
-            RÖSTEREI &amp; KONDITOREI
+            CAFÉ
           </p>
 
           <div className="flex flex-wrap items-center justify-center gap-x-6 gap-y-1 mt-3 text-sm text-[#E11D48]">
-            <span className="flex items-center gap-1.5">
-              <MapPin className="w-4 h-4" />
-              Springfield 1105
-            </span>
 
             <span className="flex items-center gap-1.5">
               <MapPin className="w-4 h-4" />
@@ -116,11 +112,6 @@ export default function MenuPage() {
 
         {/* Footer */}
         <footer className="border-t border-[#5A1D20]/30 mt-8 pt-5 text-center">
-          <p className="flex items-center justify-center gap-1.5 text-sm text-[#1A1A1A]/80 font-medium">
-            <Clock className="w-4 h-4 text-[#5A1D20]" />
-            Mo – Sa 7:00 bis 19:00 Uhr
-          </p>
-
           <p className="text-xs text-[#1A1A1A]/55 mt-2">
             Alle Preise inkl. der gesetzlichen Mehrwertsteuer. Abbildungen können abweichen.
           </p>
