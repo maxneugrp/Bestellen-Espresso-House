@@ -18,8 +18,8 @@ function App() {
 
         <Routes>
           <Route element={<Layout />}>
-            <Route path="/" element={<NewOrder />} />
-            <Route path="/menu" element={<MenuPage />} />
+            <Route path="/menu" element={<NewOrder />} />
+            <Route path="/" element={<MenuPage />} />
           </Route>
 
           <Route path="*" element={<PageNotFound />} />
