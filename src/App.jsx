@@ -4,7 +4,6 @@ import { queryClientInstance } from "@/lib/query-client";
 import {  HashRouter, Route, Routes } from "react-router-dom";
 
 import PageNotFound from "./lib/PageNotFound";
-import ScrollToTop from "./components/ScrollToTop";
 import Layout from "@/components/Layout";
 
 import NewOrder from "@/pages/NewOrder";
@@ -14,7 +13,7 @@ function App() {
   return (
     <QueryClientProvider client={queryClientInstance}>
       <HashRouter>
-        <ScrollToTop />
+        {/* <ScrollToTop /> */}
 
         <Routes>
           <Route element={<Layout />}>
